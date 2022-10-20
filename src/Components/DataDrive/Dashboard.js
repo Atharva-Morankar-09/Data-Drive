@@ -14,7 +14,7 @@ export default function Dashboard() {
   const { folderId } = useParams()
   const { state = {} } = useLocation()
   const { folder, childFolders, childFiles } = useFolder(folderId, state)
-  console.log(childFolders)
+  // console.log(childFolders)
 
   return (
     <>
